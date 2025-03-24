@@ -1,0 +1,395 @@
+{
+  "categories": [
+    {
+      "name": "Fullstack Development",
+      "tools": [
+        { "id": "fs1", "name": "Vercel AI SDK", "url": "https://sdk.vercel.ai/docs" },
+        { "id": "fs2", "name": "GitHub Copilot", "url": "https://github.com/features/copilot" },
+        { "id": "fs3", "name": "Replit GhostWriter", "url": "https://replit.com/ghostwriter" },
+        { "id": "fs4", "name": "CodeWhisperer", "url": "https://aws.amazon.com/codewhisperer/" },
+        { "id": "fs5", "name": "DevGPT", "url": "https://www.getdevgpt.com/" },
+        { "id": "fs6", "name": "Tabnine", "url": "https://www.tabnine.com/" },
+        { "id": "fs7", "name": "DeepCode", "url": "https://www.deepcode.ai/" },
+        { "id": "fs8", "name": "Mintlify", "url": "https://mintlify.com/" },
+        { "id": "fs9", "name": "Continual", "url": "https://continual.ai/" },
+        { "id": "fs10", "name": "StackSpot", "url": "https://stackspot.com/" },
+        { "id": "fs11", "name": "Sourcery", "url": "https://sourcery.ai/" },
+        { "id": "fs12", "name": "CodeGeeX", "url": "https://codegeex.ai/" },
+        { "id": "fs13", "name": "AI2SQL", "url": "https://www.ai2sql.io/" },
+        { "id": "fs14", "name": "Captain Stack", "url": "https://www.captainstack.ai/" },
+        { "id": "fs15", "name": "CodeT5", "url": "https://huggingface.co/Salesforce/codet5-base" }
+      ]
+    },
+    {
+      "name": "Deployment & DevOps",
+      "tools": [
+        { "id": "dep1", "name": "Vercel", "url": "https://vercel.com/" },
+        { "id": "dep2", "name": "Netlify", "url": "https://www.netlify.com/" },
+        { "id": "dep3", "name": "Render", "url": "https://render.com/" },
+        { "id": "dep4", "name": "Railway", "url": "https://railway.app/" },
+        { "id": "dep5", "name": "Cloudflare Pages", "url": "https://pages.cloudflare.com/" },
+        { "id": "dep6", "name": "Heroku", "url": "https://www.heroku.com/" },
+        { "id": "dep7", "name": "DigitalOcean App Platform", "url": "https://www.digitalocean.com/products/app-platform" },
+        { "id": "dep8", "name": "Firebase Hosting", "url": "https://firebase.google.com/products/hosting" },
+        { "id": "dep9", "name": "AWS Amplify", "url": "https://aws.amazon.com/amplify/" },
+        { "id": "dep10", "name": "Fly.io", "url": "https://fly.io/" },
+        { "id": "dep11", "name": "Qovery", "url": "https://www.qovery.com/" },
+        { "id": "dep12", "name": "Platform.sh", "url": "https://platform.sh/" },
+        { "id": "dep13", "name": "Deta Space", "url": "https://deta.space/" },
+        { "id": "dep14", "name": "Adaptable", "url": "https://adaptable.io/" },
+        { "id": "dep15", "name": "Cyclic", "url": "https://www.cyclic.sh/" }
+      ]
+    },
+    {
+      "name": "Natural Language Processing",
+      "tools": [
+        { "id": "nlp1", "name": "ChatGPT", "url": "https://chat.openai.com" },
+        { "id": "nlp2", "name": "Claude AI", "url": "https://claude.ai" },
+        { "id": "nlp3", "name": "Anthropic", "url": "https://www.anthropic.com" },
+        { "id": "nlp4", "name": "Perplexity AI", "url": "https://www.perplexity.ai" },
+        { "id": "nlp5", "name": "Jasper", "url": "https://www.jasper.ai" },
+        { "id": "nlp6", "name": "Cohere", "url": "https://cohere.ai" },
+        { "id": "nlp7", "name": "Hugging Face", "url": "https://huggingface.co" },
+        { "id": "nlp8", "name": "GPT-4", "url": "https://openai.com/gpt-4" },
+        { "id": "nlp9", "name": "LLaMA", "url": "https://ai.meta.com/llama/" },
+        { "id": "nlp10", "name": "Bing Chat", "url": "https://www.bing.com/chat" },
+        { "id": "nlp11", "name": "Google Bard", "url": "https://bard.google.com" },
+        { "id": "nlp12", "name": "BERT", "url": "https://huggingface.co/bert-base-uncased" },
+        { "id": "nlp13", "name": "BLOOM", "url": "https://huggingface.co/bigscience/bloom" },
+        { "id": "nlp14", "name": "Falcon", "url": "https://huggingface.co/tiiuae/falcon-7b" },
+        { "id": "nlp15", "name": "GPT-J", "url": "https://huggingface.co/EleutherAI/gpt-j-6B" }
+      ]
+    },
+    {
+      "name": "Image Generation",
+      "tools": [
+        { "id": "img1", "name": "DALL-E", "url": "https://openai.com/dall-e-2" },
+        { "id": "img2", "name": "Midjourney", "url": "https://www.midjourney.com" },
+        { "id": "img3", "name": "Stable Diffusion", "url": "https://stability.ai" },
+        { "id": "img4", "name": "Adobe Firefly", "url": "https://firefly.adobe.com" },
+        { "id": "img5", "name": "Runway ML", "url": "https://runwayml.com" },
+        { "id": "img6", "name": "Imagen", "url": "https://imagen.research.google" },
+        { "id": "img7", "name": "Canva Text to Image", "url": "https://www.canva.com/features/text-to-image/" },
+        { "id": "img8", "name": "DreamStudio", "url": "https://dreamstudio.ai" },
+        { "id": "img9", "name": "DeepAI", "url": "https://deepai.org/machine-learning-model/text2img" },
+        { "id": "img10", "name": "NightCafe", "url": "https://nightcafe.studio" },
+        { "id": "img11", "name": "Craiyon", "url": "https://www.craiyon.com" },
+        { "id": "img12", "name": "Bing Image Creator", "url": "https://www.bing.com/create" },
+        { "id": "img13", "name": "Leonardo.ai", "url": "https://leonardo.ai" },
+        { "id": "img14", "name": "Picsart AI", "url": "https://picsart.com/ai-image-generator" },
+        { "id": "img15", "name": "Playground AI", "url": "https://playgroundai.com" }
+      ]
+    },
+    {
+      "name": "Code Generation",
+      "tools": [
+        { "id": "code1", "name": "GitHub Copilot", "url": "https://github.com/features/copilot" },
+        { "id": "code2", "name": "Amazon CodeWhisperer", "url": "https://aws.amazon.com/codewhisperer" },
+        { "id": "code3", "name": "TabNine", "url": "https://www.tabnine.com" },
+        { "id": "code4", "name": "Replit Ghostwriter", "url": "https://replit.com/site/ghostwriter" },
+        { "id": "code5", "name": "Codex", "url": "https://openai.com/blog/openai-codex" },
+        { "id": "code6", "name": "DeepMind AlphaCode", "url": "https://alphacode.deepmind.com" },
+        { "id": "code7", "name": "Codeium", "url": "https://codeium.com" },
+        { "id": "code8", "name": "Sourcegraph Cody", "url": "https://sourcegraph.com/cody" },
+        { "id": "code9", "name": "Cursor", "url": "https://cursor.sh" },
+        { "id": "code10", "name": "CodeT5", "url": "https://huggingface.co/Salesforce/codet5-base" },
+        { "id": "code11", "name": "OpenAI ChatGPT Code Interpreter", "url": "https://chat.openai.com" },
+        { "id": "code12", "name": "Claude Code Assistant", "url": "https://claude.ai" },
+        { "id": "code13", "name": "Codey by Google", "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-palm-2-vertex-ai" },
+        { "id": "code14", "name": "Kite", "url": "https://www.kite.com" },
+        { "id": "code15", "name": "Mintlify DocWriter", "url": "https://mintlify.com" }
+      ]
+    },
+    {
+      "name": "Voice Generation",
+      "tools": [
+        { "id": "voice1", "name": "ElevenLabs", "url": "https://elevenlabs.io" },
+        { "id": "voice2", "name": "Play.ht", "url": "https://play.ht" },
+        { "id": "voice3", "name": "Resemble.ai", "url": "https://www.resemble.ai" },
+        { "id": "voice4", "name": "WellSaid Labs", "url": "https://wellsaidlabs.com" },
+        { "id": "voice5", "name": "Descript", "url": "https://www.descript.com" },
+        { "id": "voice6", "name": "Murf AI", "url": "https://murf.ai" },
+        { "id": "voice7", "name": "Speechify", "url": "https://speechify.com" },
+        { "id": "voice8", "name": "Lovo AI", "url": "https://lovo.ai" },
+        { "id": "voice9", "name": "Voicemod", "url": "https://www.voicemod.net" },
+        { "id": "voice10", "name": "Listnr", "url": "https://listnr.tech" },
+        { "id": "voice11", "name": "Coqui TTS", "url": "https://coqui.ai" },
+        { "id": "voice12", "name": "NaturalReaders", "url": "https://www.naturalreaders.com" },
+        { "id": "voice13", "name": "Amazon Polly", "url": "https://aws.amazon.com/polly" },
+        { "id": "voice14", "name": "Google Text-to-Speech", "url": "https://cloud.google.com/text-to-speech" },
+        { "id": "voice15", "name": "Microsoft Azure TTS", "url": "https://azure.microsoft.com/services/cognitive-services/text-to-speech" }
+      ]
+    },
+    {
+      "name": "Video Editing",
+      "tools": [
+        { "id": "video1", "name": "Runway Gen-2", "url": "https://runwayml.com" },
+        { "id": "video2", "name": "Descript", "url": "https://www.descript.com" },
+        { "id": "video3", "name": "Synthesia", "url": "https://www.synthesia.io" },
+        { "id": "video4", "name": "D-ID", "url": "https://www.d-id.com" },
+        { "id": "video5", "name": "Fliki", "url": "https://fliki.ai" },
+        { "id": "video6", "name": "Sora", "url": "https://openai.com/sora" },
+        { "id": "video7", "name": "Elai.io", "url": "https://elai.io" },
+        { "id": "video8", "name": "InVideo", "url": "https://invideo.io" },
+        { "id": "video9", "name": "Pictory", "url": "https://pictory.ai" },
+        { "id": "video10", "name": "HeyGen", "url": "https://www.heygen.com" },
+        { "id": "video11", "name": "Lumen5", "url": "https://lumen5.com" },
+        { "id": "video12", "name": "Kapwing", "url": "https://www.kapwing.com" },
+        { "id": "video13", "name": "Wonder Dynamics", "url": "https://wonderdynamics.com" },
+        { "id": "video14", "name": "Hour One", "url": "https://hourone.ai" },
+        { "id": "video15", "name": "Colossyan", "url": "https://www.colossyan.com" }
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "tools": [
+        { "id": "data1", "name": "Obviously AI", "url": "https://www.obviously.ai" },
+        { "id": "data2", "name": "H2O.ai", "url": "https://h2o.ai" },
+        { "id": "data3", "name": "DataRobot", "url": "https://www.datarobot.com" },
+        { "id": "data4", "name": "Akkio", "url": "https://www.akkio.com" },
+        { "id": "data5", "name": "Qlik AutoML", "url": "https://www.qlik.com/us/products/automl" },
+        { "id": "data6", "name": "IBM Watson Studio", "url": "https://www.ibm.com/cloud/watson-studio" },
+        { "id": "data7", "name": "Google Cloud AutoML", "url": "https://cloud.google.com/automl" },
+        { "id": "data8", "name": "Amazon SageMaker", "url": "https://aws.amazon.com/sagemaker" },
+        { "id": "data9", "name": "RapidMiner", "url": "https://rapidminer.com" },
+        { "id": "data10", "name": "Alteryx", "url": "https://www.alteryx.com" },
+        { "id": "data11", "name": "Databricks", "url": "https://www.databricks.com" },
+        { "id": "data12", "name": "Dataiku", "url": "https://www.dataiku.com" },
+        { "id": "data13", "name": "Pecan", "url": "https://www.pecan.ai" },
+        { "id": "data14", "name": "MiningLamp", "url": "https://en.mininglamp.com" },
+        { "id": "data15", "name": "Squark", "url": "https://squarkai.com" }
+      ]
+    },
+    {
+      "name": "Music Generation",
+      "tools": [
+        { "id": "music1", "name": "AIVA", "url": "https://www.aiva.ai" },
+        { "id": "music2", "name": "Amper Music", "url": "https://www.ampermusic.com" },
+        { "id": "music3", "name": "Soundraw", "url": "https://soundraw.io" },
+        { "id": "music4", "name": "Mubert", "url": "https://mubert.com" },
+        { "id": "music5", "name": "Ecrett Music", "url": "https://ecrettmusic.com" },
+        { "id": "music6", "name": "Suno AI", "url": "https://www.suno.ai" },
+        { "id": "music7", "name": "Boomy", "url": "https://boomy.com" },
+        { "id": "music8", "name": "Magenta", "url": "https://magenta.tensorflow.org" },
+        { "id": "music9", "name": "Harmonai", "url": "https://harmonai.org" },
+        { "id": "music10", "name": "Beatoven.ai", "url": "https://www.beatoven.ai" },
+        { "id": "music11", "name": "Endel", "url": "https://endel.io" },
+        { "id": "music12", "name": "Loudly", "url": "https://www.loudly.com" },
+        { "id": "music13", "name": "Amadeus Code", "url": "https://amadeuscode.com" },
+        { "id": "music14", "name": "Songtell AI", "url": "https://songtell.com" },
+        { "id": "music15", "name": "Jukebox by OpenAI", "url": "https://openai.com/research/jukebox" }
+      ]
+    },
+    {
+      "name": "AI Writing",
+      "tools": [
+        { "id": "writing1", "name": "Jasper", "url": "https://www.jasper.ai" },
+        { "id": "writing2", "name": "Copy.ai", "url": "https://www.copy.ai" },
+        { "id": "writing3", "name": "Writesonic", "url": "https://writesonic.com" },
+        { "id": "writing4", "name": "Rytr", "url": "https://rytr.me" },
+        { "id": "writing5", "name": "Frase", "url": "https://www.frase.io" },
+        { "id": "writing6", "name": "Wordtune", "url": "https://www.wordtune.com" },
+        { "id": "writing7", "name": "Copysmith", "url": "https://copysmith.ai" },
+        { "id": "writing8", "name": "Shortly AI", "url": "https://www.shortlyai.com" },
+        { "id": "writing9", "name": "HyperWrite", "url": "https://hyperwriteai.com" },
+        { "id": "writing10", "name": "QuillBot", "url": "https://quillbot.com" },
+        { "id": "writing11", "name": "Lex", "url": "https://lex.page" },
+        { "id": "writing12", "name": "Anyword", "url": "https://anyword.com" },
+        { "id": "writing13", "name": "Grammarly", "url": "https://www.grammarly.com" },
+        { "id": "writing14", "name": "Writer", "url": "https://writer.com" },
+        { "id": "writing15", "name": "TextCortex", "url": "https://textcortex.com" }
+      ]
+    },
+    {
+      "name": "Robotics",
+      "tools": [
+        { "id": "robotics1", "name": "Boston Dynamics", "url": "https://www.bostondynamics.com" },
+        { "id": "robotics2", "name": "Fetch Robotics", "url": "https://fetchrobotics.com" },
+        { "id": "robotics3", "name": "Embodied", "url": "https://embodied.com" },
+        { "id": "robotics4", "name": "Agility Robotics", "url": "https://agilityrobotics.com" },
+        { "id": "robotics5", "name": "Diligent Robotics", "url": "https://www.diligentrobots.com" },
+        { "id": "robotics6", "name": "Figure AI", "url": "https://www.figure.ai" },
+        { "id": "robotics7", "name": "Covariant", "url": "https://covariant.ai" },
+        { "id": "robotics8", "name": "NVIDIA Isaac", "url": "https://developer.nvidia.com/isaac-sdk" },
+        { "id": "robotics9", "name": "Shadow Robot", "url": "https://www.shadowrobot.com" },
+        { "id": "robotics10", "name": "Skydio", "url": "https://www.skydio.com" },
+        { "id": "robotics11", "name": "Unitree Robotics", "url": "https://www.unitree.com" },
+        { "id": "robotics12", "name": "Intuitive Surgical", "url": "https://www.intuitive.com" },
+        { "id": "robotics13", "name": "RobotLAB", "url": "https://www.robotlab.com" },
+        { "id": "robotics14", "name": "Sanctuary AI", "url": "https://www.sanctuary.ai" },
+        { "id": "robotics15", "name": "Vicarious", "url": "https://www.vicarious.com" }
+      ]
+    },
+    {
+      "name": "Game Development",
+      "tools": [
+        { "id": "game1", "name": "Unity ML-Agents", "url": "https://unity.com/products/machine-learning-agents" },
+        { "id": "game2", "name": "NVIDIA GameWorks", "url": "https://developer.nvidia.com/gameworks" },
+        { "id": "game3", "name": "Inworld AI", "url": "https://www.inworld.ai" },
+        { "id": "game4", "name": "Replica Studios", "url": "https://replicastudios.com" },
+        { "id": "game5", "name": "AI Dungeon", "url": "https://play.aidungeon.io" },
+        { "id": "game6", "name": "Convai", "url": "https://www.convai.com" },
+        { "id": "game7", "name": "Charisma.ai", "url": "https://charisma.ai" },
+        { "id": "game8", "name": "modl.ai", "url": "https://modl.ai" },
+        { "id": "game9", "name": "ANGELINA", "url": "http://www.gamesbyangelina.org" },
+        { "id": "game10", "name": "TLX Games", "url": "https://www.tlxgames.com" },
+        { "id": "game11", "name": "Unreal Engine ML", "url": "https://docs.unrealengine.com/en-US/machine-learning-in-unreal-engine" },
+        { "id": "game12", "name": "SEED by EA", "url": "https://www.ea.com/seed" },
+        { "id": "game13", "name": "Spirit AI", "url": "https://spiritai.com" },
+        { "id": "game14", "name": "Scenario", "url": "https://www.scenario.com" },
+        { "id": "game15", "name": "Latitude", "url": "https://latitude.io" }
+      ]
+    },
+    {
+      "name": "Healthcare AI",
+      "tools": [
+        { "id": "health1", "name": "Tempus", "url": "https://www.tempus.com" },
+        { "id": "health2", "name": "PathAI", "url": "https://www.pathai.com" },
+        { "id": "health3", "name": "Enlitic", "url": "https://www.enlitic.com" },
+        { "id": "health4", "name": "Freenome", "url": "https://www.freenome.com" },
+        { "id": "health5", "name": "Arterys", "url": "https://www.arterys.com" },
+        { "id": "health6", "name": "Viz.ai", "url": "https://www.viz.ai" },
+        { "id": "health7", "name": "Babylon Health", "url": "https://www.babylonhealth.com" },
+        { "id": "health8", "name": "Zebra Medical Vision", "url": "https://www.zebra-med.com" },
+        { "id": "health9", "name": "Recursion", "url": "https://www.recursion.com" },
+        { "id": "health10", "name": "Paige", "url": "https://paige.ai" },
+        { "id": "health11", "name": "Atomwise", "url": "https://www.atomwise.com" },
+        { "id": "health12", "name": "Insitro", "url": "https://insitro.com" },
+        { "id": "health13", "name": "BenevolentAI", "url": "https://www.benevolent.com" },
+        { "id": "health14", "name": "Deep Genomics", "url": "https://www.deepgenomics.com" },
+        { "id": "health15", "name": "Owkin", "url": "https://owkin.com" }
+      ]
+    },
+    {
+      "name": "Customer Service",
+      "tools": [
+        { "id": "cs1", "name": "Ada", "url": "https://www.ada.cx" },
+        { "id": "cs2", "name": "Intercom", "url": "https://www.intercom.com" },
+        { "id": "cs3", "name": "Drift", "url": "https://www.drift.com" },
+        { "id": "cs4", "name": "Kore.ai", "url": "https://kore.ai" },
+        { "id": "cs5", "name": "Zendesk AI", "url": "https://www.zendesk.com/platform/ai" },
+        { "id": "cs6", "name": "Forethought", "url": "https://forethought.ai" },
+        { "id": "cs7", "name": "Talkdesk", "url": "https://www.talkdesk.com" },
+        { "id": "cs8", "name": "Thankful", "url": "https://www.thankful.ai" },
+        { "id": "cs9", "name": "Aisera", "url": "https://aisera.com" },
+        { "id": "cs10", "name": "LivePerson", "url": "https://www.liveperson.com" },
+        { "id": "cs11", "name": "Talla", "url": "https://talla.com" },
+        { "id": "cs12", "name": "Ultimate.ai", "url": "https://www.ultimate.ai" },
+        { "id": "cs13", "name": "Cognigy", "url": "https://www.cognigy.com" },
+        { "id": "cs14", "name": "Yellow.ai", "url": "https://yellow.ai" },
+        { "id": "cs15", "name": "Haptik", "url": "https://www.haptik.ai" }
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "tools": [
+        { "id": "cv1", "name": "Scale AI", "url": "https://scale.com" },
+        { "id": "cv2", "name": "Roboflow", "url": "https://roboflow.com" },
+        { "id": "cv3", "name": "Clarifai", "url": "https://www.clarifai.com" },
+        { "id": "cv4", "name": "Labelbox", "url": "https://labelbox.com" },
+        { "id": "cv5", "name": "Weights & Biases", "url": "https://wandb.ai" },
+        { "id": "cv6", "name": "Hugging Face Vision", "url": "https://huggingface.co/tasks/computer-vision" },
+        { "id": "cv7", "name": "Viso Suite", "url": "https://viso.ai" },
+        { "id": "cv8", "name": "Datature", "url": "https://datature.io" },
+        { "id": "cv9", "name": "Mobius Labs", "url": "https://www.mobius.ml" },
+        { "id": "cv10", "name": "Deepchecks", "url": "https://deepchecks.com" },
+        { "id": "cv11", "name": "Activeloop", "url": "https://www.activeloop.ai" },
+        { "id": "cv12", "name": "Hasty", "url": "https://hasty.ai" },
+        { "id": "cv13", "name": "Encord", "url": "https://encord.com" },
+        { "id": "cv14", "name": "Sixgill", "url": "https://www.sixgill.com" },
+        { "id": "cv15", "name": "SuperAnnotate", "url": "https://www.superannotate.com" }
+      ]
+    },
+    {
+      "name": "Recommendation Systems",
+      "tools": [
+        { "id": "rec1", "name": "Recombee", "url": "https://www.recombee.com" },
+        { "id": "rec2", "name": "Algolia", "url": "https://www.algolia.com" },
+        { "id": "rec3", "name": "LensKit", "url": "https://lenskit.org" },
+        { "id": "rec4", "name": "Reco4j", "url": "https://github.com/myrrix/reco4j" },
+        { "id": "rec5", "name": "TensorFlow Recommenders", "url": "https://www.tensorflow.org/recommenders" },
+        { "id": "rec6", "name": "Amazon Personalize", "url": "https://aws.amazon.com/personalize" },
+        { "id": "rec7", "name": "Miso", "url": "https://miso.ai" },
+        { "id": "rec8", "name": "LightFM", "url": "https://making.lyst.com/lightfm/docs/home.html" },
+        { "id": "rec9", "name": "Gorse", "url": "https://gorse.io" },
+        { "id": "rec10", "name": "Constructor.io", "url": "https://constructor.io" },
+        { "id": "rec11", "name": "Crossing Minds", "url": "https://crossingminds.com" },
+        { "id": "rec12", "name": "Dynamic Yield", "url": "https://www.dynamicyield.com" },
+        { "id": "rec13", "name": "Implicit", "url": "https://github.com/benfred/implicit" },
+        { "id": "rec14", "name": "Surprise", "url": "http://surpriselib.com" },
+        { "id": "rec15", "name": "Spotlight", "url": "https://github.com/maciejkula/spotlight" }
+      ]
+    },
+    {
+      "name": "Edge AI",
+      "tools": [
+        { "id": "edge1", "name": "TensorFlow Lite", "url": "https://www.tensorflow.org/lite" },
+        { "id": "edge2", "name": "NVIDIA Jetson", "url": "https://developer.nvidia.com/embedded/jetson" },
+        { "id": "edge3", "name": "Edge Impulse", "url": "https://www.edgeimpulse.com" },
+        { "id": "edge4", "name": "OpenVINO", "url": "https://docs.openvino.ai" },
+        { "id": "edge5", "name": "MediaPipe", "url": "https://mediapipe.dev" },
+        { "id": "edge6", "name": "Coral by Google", "url": "https://coral.ai" },
+        { "id": "edge7", "name": "ONNX Runtime", "url": "https://onnxruntime.ai" },
+        { "id": "edge8", "name": "Arm NN", "url": "https://www.arm.com/products/silicon-ip-cpu/ethos/arm-nn" },
+        { "id": "edge9", "name": "Fritz AI", "url": "https://www.fritz.ai" },
+        { "id": "edge10", "name": "DeepSparse", "url": "https://neuralmagic.com/deepsparse" },
+        { "id": "edge11", "name": "XNNPACK", "url": "https://github.com/google/XNNPACK" },
+        { "id": "edge12", "name": "Apache TVM", "url": "https://tvm.apache.org" },
+        { "id": "edge13", "name": "MicroAI", "url": "https://micro.ai" },
+        { "id": "edge14", "name": "SensiML", "url": "https://sensiml.com" },
+        { "id": "edge15", "name": "Imagimob", "url": "https://www.imagimob.com" }
+      ]
+    }
+  ],
+  "datasets": [
+    { "name": "Kaggle Datasets", "url": "https://www.kaggle.com/datasets" },
+    { "name": "Google Dataset Search", "url": "https://datasetsearch.research.google.com" },
+    { "name": "UCI Machine Learning Repository", "url": "https://archive.ics.uci.edu/ml/index.php" },
+    { "name": "AWS Open Data Registry", "url": "https://registry.opendata.aws" },
+    { "name": "Data.gov", "url": "https://www.data.gov" },
+    { "name": "EU Open Data Portal", "url": "https://data.europa.eu/en" },
+    { "name": "Hugging Face Datasets", "url": "https://huggingface.co/datasets" },
+    { "name": "Papers With Code Datasets", "url": "https://paperswithcode.com/datasets" },
+    { "name": "TensorFlow Datasets", "url": "https://www.tensorflow.org/datasets" },
+    { "name": "Microsoft Research Open Data", "url": "https://msropendata.com" },
+    { "name": "Common Crawl", "url": "https://commoncrawl.org" },
+    { "name": "OpenML", "url": "https://www.openml.org" },
+    { "name": "Datahub", "url": "https://datahub.io" },
+    { "name": "COCO Dataset", "url": "https://cocodataset.org" },
+    { "name": "ImageNet", "url": "https://www.image-net.org" }
+  ],
+  "databases": [
+    { "name": "MongoDB", "url": "https://www.mongodb.com" },
+    { "name": "PostgreSQL", "url": "https://www.postgresql.org" },
+    { "name": "MySQL", "url": "https://www.mysql.com" },
+    { "name": "Redis", "url": "https://redis.io" },
+    { "name": "Elasticsearch", "url": "https://www.elastic.co" },
+    { "name": "Amazon DynamoDB", "url": "https://aws.amazon.com/dynamodb" },
+    { "name": "Google Cloud Firestore", "url": "https://firebase.google.com/docs/firestore" },
+    { "name": "Microsoft Azure Cosmos DB", "url": "https://azure.microsoft.com/services/cosmos-db" },
+    { "name": "Supabase", "url": "https://supabase.io" },
+    { "name": "PlanetScale", "url": "https://planetscale.com" },
+    { "name": "Fauna", "url": "https://fauna.com" },
+    { "name": "Cassandra", "url": "https://cassandra.apache.org" },
+    { "name": "CockroachDB", "url": "https://www.cockroachlabs.com" },
+    { "name": "Neo4j", "url": "https://neo4j.com" },
+    { "name": "InfluxDB", "url": "https://www.influxdata.com" }
+  ],
+  "hosting": [
+    { "name": "Vercel", "url": "https://vercel.com" },
+    { "name": "Netlify", "url": "https://www.netlify.com" },
+    { "name": "AWS Amplify", "url": "https://aws.amazon.com/amplify" },
+    { "name": "Heroku", "url": "https://www.heroku.com" },
+    { "name": "DigitalOcean", "url": "https://www.digitalocean.com" },
+    { "name": "Firebase Hosting", "url": "https://firebase.google.com/products/hosting" },
+    { "name": "GitHub Pages", "url": "https://pages.github.com" },
+    { "name": "Cloudflare Pages", "url": "https://pages.cloudflare.com" },
+    { "name": "Render", "url": "https://render.com" },
+    { "name": "Railway", "url": "https://railway.app" },
+    { "name": "Fly.io", "url": "https://fly.io" },
+    { "name": "Deta", "url": "https://deta.space" },
+    { "name": "Google App Engine", "url": "https://cloud.google.com/appengine" },
+    { "name": "Microsoft Azure App Service", "url": "https://azure.microsoft.com/services/app-service" },
+    { "name": "Replit", "url": "https://replit.com" }
+  ]
+}
