@@ -1,13 +1,22 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { MessageSquare, X } from 'lucide-react';
+import { MessageSquare, X, Bell } from 'lucide-react';
 
 interface ChatbotProps {
   aiData: any;
   onRequestNewTool: (request: string) => void;
 }
 
+interface Notification {
+  id: string;
+  text: string;
+  timestamp: number;
+}
+
+const NOTIFICATION_TIMEOUT = 5000; // 5 seconds
+
 const Chatbot: React.FC<ChatbotProps> = ({ aiData, onRequestNewTool }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [notifications, setNotifications] = useState<Notification[]>([]);
   const [messages, setMessages] = useState([
     { type: 'bot', text: 'Hello! How can I assist you today? Choose an option:', options: [
       'Search AI Tools',
@@ -27,11 +36,57 @@ const Chatbot: React.FC<ChatbotProps> = ({ aiData, onRequestNewTool }) => {
     scrollToBottom();
   }, [messages]);
 
+  // Handle notifications cleanup
+  useEffect(() => {
+    const cleanup = setInterval(() => {
+      const now = Date.now();
+      setNotifications(prev => 
+        prev.filter(notification => now - notification.timestamp < NOTIFICATION_TIMEOUT)
+      );
+    }, 1000);
+
+    return () => clearInterval(cleanup);
+  }, []);
+
+  const showMainMenu = () => {
+    setMessages(prev => [...prev, {
+      type: 'bot',
+      text: 'What would you like to do?',
+      options: [
+        'Search AI Tools',
+        'Browse Categories',
+        'View Resources',
+        'Request New Tool'
+      ]
+    }]);
+  };
+
+  const addNotification = (text: string) => {
+    const newNotification = {
+      id: Math.random().toString(36).substr(2, 9),
+      text,
+      timestamp: Date.now()
+    };
+    setNotifications(prev => [...prev, newNotification]);
+  };
+
+  const removeNotification = (id: string) => {
+    setNotifications(prev => prev.filter(notification => notification.id !== id));
+  };
+
   const handleSend = () => {
     if (!input.trim()) return;
 
     const userMessage = { type: 'user', text: input };
     setMessages(prev => [...prev, userMessage]);
+
+    // Check for greetings
+    const greetings = ['hi', 'hello', 'hey', 'greetings'];
+    if (greetings.includes(input.toLowerCase().trim())) {
+      showMainMenu();
+      setInput('');
+      return;
+    }
 
     // Search through AI tools
     const searchResults = Object.values(aiData.categories)
@@ -48,6 +103,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ aiData, onRequestNewTool }) => {
         results: searchResults
       };
       setMessages(prev => [...prev, resultMessage]);
+      showMainMenu();
     } else {
       const notFoundMessage = {
         type: 'bot',
@@ -55,7 +111,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ aiData, onRequestNewTool }) => {
         options: ['Yes, request tool', 'No, thanks']
       };
       setMessages(prev => [...prev, notFoundMessage]);
-      onRequestNewTool(input);
+      addNotification(`New tool request: ${input}`);
     }
 
     setInput('');
@@ -65,6 +121,13 @@ const Chatbot: React.FC<ChatbotProps> = ({ aiData, onRequestNewTool }) => {
     setMessages(prev => [...prev, { type: 'user', text: option }]);
 
     switch (option) {
+      case 'Yes, request tool':
+        onRequestNewTool(messages[messages.length - 2].text);
+        showMainMenu();
+        break;
+      case 'No, thanks':
+        showMainMenu();
+        break;
       case 'Search AI Tools':
         setMessages(prev => [...prev, {
           type: 'bot',
@@ -102,6 +165,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ aiData, onRequestNewTool }) => {
             text: `Here are the tools in the ${option} category:`,
             results: category.tools
           }]);
+          showMainMenu();
         }
         // Handle resource type selection
         const resourceType = aiData.resources[option.toLowerCase()];
@@ -111,12 +175,32 @@ const Chatbot: React.FC<ChatbotProps> = ({ aiData, onRequestNewTool }) => {
             text: `Here are the available ${option}:`,
             results: resourceType
           }]);
+          showMainMenu();
         }
     }
   };
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
+      {/* Notifications */}
+      <div className="fixed bottom-24 right-4 space-y-2">
+        {notifications.map(notification => (
+          <div
+            key={notification.id}
+            className="bg-card-light dark:bg-card-dark rounded-lg shadow-lg p-4 flex items-center gap-2 transition-colors duration-200 animate-fade-in"
+          >
+            <Bell className="h-5 w-5 text-yellow-500" />
+            <p className="text-gray-800 dark:text-gray-200">{notification.text}</p>
+            <button
+              onClick={() => removeNotification(notification.id)}
+              className="ml-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          </div>
+        ))}
+      </div>
+
       {isOpen ? (
         <div className="bg-card-light dark:bg-card-dark rounded-lg shadow-xl w-80 h-96 flex flex-col transition-colors duration-200">
           <div className="p-4 border-b dark:border-gray-700 flex justify-between items-center">
